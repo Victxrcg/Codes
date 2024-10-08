@@ -3,4 +3,4 @@ cotacao=float(input("Digite o valor do dolar atual:"))
 
 cotacao1=real/cotacao
 
-print(f"O valor equivalente ao dolar é de:,{cotacao1:.1f}")
+print(f"Conversão do dolar é de:{cotacao1:.1f}")
