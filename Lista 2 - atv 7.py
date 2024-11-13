@@ -1,3 +1,4 @@
+class sort
 def selection_sort(lista):
     n = len(lista)
     
@@ -16,6 +17,7 @@ def selection_sort(lista):
             lista[i], lista[menor_idx] = lista[menor_idx], lista[i]
     
     return lista
+    
 lista=[32,45,6,788,65,646]
 sorted_lista = selection_sort(lista)
 print(sorted_lista)
