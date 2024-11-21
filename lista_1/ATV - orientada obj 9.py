@@ -3,5 +3,4 @@ def fatorial(n):
         return 1
     return n * fatorial(n - 1)
 
-# Exemplo de uso
-print(fatorial(5))  # Saída: 120
+print(fatorial(5)) 

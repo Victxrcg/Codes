@@ -1,10 +1,10 @@
 def diferenca_max_min(lista):
-    menor = min(lista)
-    maior = max(lista)
-    return maior - menor
-lista= [1,2,3,4,5]
-
-resultado = diferenca_max_min(lista )   
-print(resultado) 
-
+    # Verifica se a lista não está vazia
+    if not lista:
+        return 0  # Ou pode lançar uma exceção, dependendo do comportamento esperado
     
+    # Retorna a diferença entre o maior e o menor valor da lista
+    return max(lista) - min(lista)
+lista = [10, 20, 5, 7, 30]
+resultado = diferenca_max_min(lista)
+print(resultado)  # Saída: 25 (30 - 5)

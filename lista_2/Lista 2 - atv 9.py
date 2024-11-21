@@ -1,2 +1,1 @@
-def quick_sort(lista):
-    
+# Não consegui fazer 
