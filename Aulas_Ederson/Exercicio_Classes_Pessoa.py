@@ -5,8 +5,6 @@ class Pessoa:
         self.peso = peso
         self.altura = altura
 
-    def envelhecer (self):
-        if idade <= 21
 
 
 # astra faz 7.1 km/L
